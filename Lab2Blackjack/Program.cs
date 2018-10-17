@@ -104,7 +104,7 @@ namespace Blackjack
             int i = 1;
             foreach (Carte carte in cartes)
             {
-                Console.WriteLine("Carte {0}: {1} of {2}. Valeur: {3}:", i, carte.Face, carte.Suit, carte.Valeur);
+                Console.WriteLine("Carte {0}: {1} de {2}. Valeur: {3}:", i, carte.Face, carte.Suit, carte.Valeur);
                 i++;
             }
         }
