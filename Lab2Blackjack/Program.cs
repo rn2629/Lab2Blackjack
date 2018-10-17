@@ -331,7 +331,7 @@ namespace Blackjack
                             {
                                 dealerValeursCartes += carte.Valeur;
                             }
-                            Console.WriteLine("Carte {0}: {1} of {2}", dealerIA.Count, dealerIA[dealerIA.Count - 1].Face, dealerIA[dealerIA.Count - 1].Suit);
+                            Console.WriteLine("Carte {0}: {1} de {2}", dealerIA.Count, dealerIA[dealerIA.Count - 1].Face, dealerIA[dealerIA.Count - 1].Suit);
                         }
                         dealerValeursCartes = 0;
                         foreach (Carte carte in dealerIA)
